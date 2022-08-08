@@ -11,10 +11,10 @@ public class App
 {
 
     static Logger logger=  Logger.getLogger(App.class.getName());
-    public static void main( String[] args )
+    /*public static void main( String[] args )
 
     {
         logger.info("dadsa");
         System.out.println( "Hello World!" );
-    }
+    }*/
 }

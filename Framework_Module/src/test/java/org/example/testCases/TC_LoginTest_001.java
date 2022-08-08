@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class TC_LoginTest_001 extends BaseClass {
 @Test
-    public void loginTest(){
+    public void loginTest() {
 
     logger.debug("URL is opened");
     LoginPage lp = new LoginPage(driver);
@@ -20,9 +20,8 @@ public class TC_LoginTest_001 extends BaseClass {
     logger.debug("Entered username");
     lp.setPassword(password);
     logger.debug("Entered password");
-    //lp.clickSubmit();
     // Implementing Screenshot with TakesScreenshot interface
-    TakesScreenshot ts = (TakesScreenshot)driver;
+    TakesScreenshot ts = (TakesScreenshot) driver;
 
     //capture screenshot as output type FILE
     File file = ts.getScreenshotAs(OutputType.FILE);
@@ -35,13 +34,5 @@ public class TC_LoginTest_001 extends BaseClass {
     }
     System.out.println("the login page screenshot is taken");
 
-/*
-    if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
-        Assert.assertTrue(true);
-        logger.info("Login test passed");
-    } else {
-        Assert.assertTrue(false);
-        logger.info("Login test failed");
-    }*/
-}
+ }
 }

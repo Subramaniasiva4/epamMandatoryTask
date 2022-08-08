@@ -14,16 +14,4 @@
             </class>
         </classes>
     </test>
-<!--    <test name="Framework_Module">-->
-<!--        <parameter name="browser" value="ie">-->
-
-<!--        </parameter>-->
-<!--        <classes>-->
-<!--            <class name="org.example.testCases.TC_LoginTest_001">-->
-<!--                <methods>-->
-<!--                    <include name="loginTest"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>
