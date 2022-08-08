@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 
 /**
  * Logger
- *
  */
 public class App
 {
